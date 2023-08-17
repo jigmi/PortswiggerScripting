@@ -22,9 +22,6 @@ def column_enumeration(url):
             no_columns = no_columns + 1
     return "[-] Unsuccessful UNION Injection"
 
-
-
-
 if __name__ == "__main__":
     try:
         url = argv[1]
